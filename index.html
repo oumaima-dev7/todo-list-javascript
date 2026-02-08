@@ -1,28 +1,16 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio Web</title>
-  <link rel="stylesheet" href="style.css">
+  <title>To Do List</title>
 </head>
 <body>
-  <header>
-    <h1>Web Developer</h1>
-    <p>HTML | CSS | JavaScript</p>
-  </header>
 
-  <section>
-    <h2>À propos</h2>
-    <p>Développeuse web passionnée par le numérique.</p>
-  </section>
+<h2>To Do List</h2>
+<input type="text" id="task">
+<button onclick="addTask()">Add</button>
 
-  <section>
-    <h2>Contact</h2>
-    <form>
-      <input type="text" placeholder="Nom">
-      <input type="email" placeholder="Email">
-      <button>Envoyer</button>
-    </form>
-  </section>
+<ul id="list"></ul>
+
+<script src="script.js"></script>
 </body>
 </html>
